@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
     mobile,
     cart,
@@ -48,6 +49,12 @@ import {
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "resume",
+      external: true,
+      link: "https://jhoon-resume.tiiny.site",
+      title: "Resume",
     },
   ];
   
