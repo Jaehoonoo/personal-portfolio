@@ -10,6 +10,7 @@ import {
     web,
     javascript,
     typescript,
+    jquery,
     html,
     css,
     reactjs,
@@ -101,6 +102,10 @@ import {
     {
       name: "Bootstrap",
       icon: bootstrap,
+    },
+    {
+      name: "jQuery",
+      icon: jquery,
     },
     {
       name: "Node JS",

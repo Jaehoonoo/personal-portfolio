@@ -26,6 +26,7 @@ import sql from "./tech/sql-server.png";
 import postgre from "./tech/postgre.png";
 import githublogo from "./tech/github.png";
 import web3 from "./tech/web3.png";
+import jquery from "./tech/jquery.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -43,6 +44,7 @@ import healthgpt from "./healthgpt.png";
 
 export {
   logo,
+  jquery,
   cart,
   kinetic,
   healthgpt,
