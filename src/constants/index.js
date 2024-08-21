@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import {
     mobile,
-    cart,
+    gainful,
+    cardlet,
     healthgpt,
-    kinetic,
     web3,
     backend,
     creator,
@@ -54,7 +54,7 @@ import {
     {
       id: "resume",
       external: true,
-      link: "https://jhoon-resume.tiiny.site",
+      link: "/src/assets/resume.pdf",
       title: "Resume",
     },
   ];
@@ -165,25 +165,33 @@ import {
   
   const projects = [
     {
-      name: "Add to Cart",
+      name: "Cardlet",
       description:
-        "Simple web app designed to streamline your shopping experience. Add items you need, check them off as you shop, and never forget a crucial ingredient again.",
+        "This AI-powered app allows users to input text or upload files to automatically generate personalized study flashcards. By analyzing the content, it intelligently creates concise, organized flashcards, streamlining the study process and enhancing retention of key concepts.",
       tags: [
         {
-          name: "HTML/CSS",
+          name: "Next.js/React",
           color: "blue-text-gradient",
         },
         {
-          name: "Javascript",
+          name: "Clerk",
           color: "green-text-gradient",
         },
         {
-          name: "Firebase",
+          name: "Stripe",
           color: "pink-text-gradient",
         },
+        {
+          name: "Material UI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "orange-text-gradient",
+        },
       ],
-      image: cart,
-      source_code_link: "https://github.com/Jaehoonoo/add-to-cart",
+      image: cardlet,
+      source_code_link: "https://github.com/brandon-fernando/flashcard-saas",
     },
     {
       name: "HealthGPT",
@@ -207,25 +215,29 @@ import {
       source_code_link: "https://github.com/Jaehoonoo/HealthGPT",
     },
     {
-      name: "Kinetic",
+      name: "Customer Support Chatbot",
       description:
-        "Kinetic is a comprehensive fitness tracker app designed to help you achieve your health and wellness goals. Whether you are a beginner starting your fitness journey or an experienced athlete, Kinetic offers a wide range of features to support your needs.",
+      "A chatbot that acts as customer service to answer user queries based on the information from Gainful's website, a company that provides personalized nutrition products.",
       tags: [
         {
-          name: "HTML",
+          name: "OpenRouter API",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Next.js/React",
           color: "green-text-gradient",
         },
         {
-          name: "Javascript",
+          name: "Firebase",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Material UI",
           color: "pink-text-gradient",
         },
       ],
-      image: kinetic,
-      source_code_link: "https://github.com/Jaehoonoo/kinetic",
+      image: gainful,
+      source_code_link: "https://github.com/Jaehoonoo/chatsupport",
     },
   ];
   

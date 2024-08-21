@@ -38,15 +38,15 @@ import rocket from "./company/rocket.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import cart from "./cart.png";
-import kinetic from "./kinetic.png";
 import healthgpt from "./healthgpt.png";
+import gainful from "./gainful.png";
+import cardlet from "./cardlet.png";
 
 export {
+  gainful,
+  cardlet,
   logo,
   jquery,
-  cart,
-  kinetic,
   healthgpt,
   rocket,
   gdsc,
