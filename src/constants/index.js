@@ -54,7 +54,7 @@ import {
     {
       id: "resume",
       external: true,
-      link: "/src/assets/resume.pdf",
+      link: "./resume.pdf",
       title: "Resume",
     },
   ];

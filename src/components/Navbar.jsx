@@ -38,7 +38,7 @@ const Navbar = () => {
               onClick={() => setActive(link.title)}
             >
               {link.external ? (
-                <a href={link.link} target="_blank" rel="noopener noreferrer">
+                <a href="./resume.pdf" target="_blank">
                   {link.title}
                 </a>
               ) : (
